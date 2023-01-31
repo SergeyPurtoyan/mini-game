@@ -1,0 +1,57 @@
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+}
+
+
+.app{
+    background: #fff;
+    width: 500px;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    position: absolute;   
+    padding:  1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+}
+
+.game{
+    width: 300px;
+    height: 300px;
+    background: gray;
+    border-radius: .5rem;
+    border: 1px solid;
+    position: relative;
+}
+
+input[type=number]{
+    margin: .5rem;
+}
+
+.hide{
+    display: none!important;
+}
